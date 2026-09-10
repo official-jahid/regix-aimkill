@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Build & Install Debug APK",
+            "type": "node",
+            "request": "launch",
+            "preLaunchTask": "Gradle: assembleDebug"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Gradle: assembleDebug",
+            "type": "shell",
+            "command": "./gradlew assembleDebug",
+            "windows": {
+                "command": ".\\gradlew.bat assembleDebug"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Gradle: assembleRelease",
+            "type": "shell",
+            "command": "./gradlew assembleRelease",
+            "windows": {
+                "command": ".\\gradlew.bat assembleRelease"
+            },
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Gradle: clean",
+            "type": "shell",
+            "command": "./gradlew clean",
+            "windows": {
+                "command": ".\\gradlew.bat clean"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "ADB Install Debug APK",
+            "type": "shell",
+            "command": "adb install -r app/build/outputs/apk/debug/app-debug.apk",
+            "windows": {
+                "command": "adb install -r app\\build\\outputs\\apk\\debug\\app-debug.apk"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.import.gradle.enabled": true,
+    "java.import.gradle.wrapper.enabled": true,
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.cStandard": "c11",
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/app/src/main/jni/**",
+        "${workspaceFolder}/app/src/main/jni/AutoUpdate/xdl/include/**"
+    ],
+    "files.associations": {
+        "*.mk": "makefile",
+        "*.hpp": "cpp",
+        "*.h": "cpp"
+    }
+}
